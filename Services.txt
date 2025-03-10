@@ -1,0 +1,17 @@
+﻿Service / API
+	RPC - Remote Procedrue Call
+	Server - Provider
+	Client
+
+	1. Socket programming
+	2. Simple Object Access Protocol - SOAP
+		XML
+		WCF
+			WSDL
+	
+	3. Restfull
+		...
+		...
+
+	4. gRPC
+		microserevice 
