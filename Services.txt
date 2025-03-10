@@ -10,6 +10,38 @@
 			WSDL
 	
 	3. Restfull
+		Http methods
+			GET
+			POST
+			PUT
+			PATCH
+			DELETE
+			OPTIONS
+				
+
+		GET https://github.com/adv-csharp140310/session10
+
+			fad.ir/api/ 
+		CRUD:
+			GET /users/				: get all users
+			GET /users/1			: get user 1
+			POST /users/  + data	: create user
+			PUT	/users/1  + data	: update 
+			PATCH /users/1	+ data	: update
+			DELETE /users/1
+
+			POST /users/activate/none
+
+
+			CRUD Blog
+				GET /blog
+				GET /blog/1
+				post /blog
+				put /blog/1
+				delete /blog
+
+
+
 		...
 		...
 
