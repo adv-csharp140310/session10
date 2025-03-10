@@ -1,5 +1,7 @@
 using System.Net;
+using System.Text.Json;
 using System.Threading;
+using RestClient.Model;
 using RestSharp;
 
 
@@ -35,7 +37,11 @@ namespace RestClient
             //user
             var request = new RestRequest("users");
             var response = await client.GetAsync(request);
-            dataGridView1.DataSource = response.Content;
+            var json = response.Content;
+
+            var users = JsonSerializer.Deserialize<List<User>>(json);            
+
+            dataGridView1.DataSource = users;
         }
 
         
