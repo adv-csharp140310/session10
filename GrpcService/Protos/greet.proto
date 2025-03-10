@@ -29,6 +29,7 @@ message HelloReply {
 message CalcRequest {
 	float a = 1;
 	float b = 2;
+	float c = 3;
 }
 
 message CalcReply {
